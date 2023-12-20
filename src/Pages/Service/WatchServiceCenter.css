@@ -1,0 +1,66 @@
+.Services,
+.About,
+.Contact {
+  margin: 20px;
+}
+
+.Services ul {
+  list-style-type: none;
+  padding: 0;
+}
+.Services h2{
+  text-align: center;
+  font-size:30px ;
+}
+.ServiceBox h3 {
+  text-align: center;
+  font-size: 20px ;
+}
+.ServiceBox p {
+  text-align: center;
+  font-size: 15px; 
+}
+.About h2{
+  text-align: center;
+  font-size: 30px;
+}
+.About p,h5{
+text-align: center;
+}
+
+
+.Services li {
+  margin: 10px 0;
+}
+
+.Contact p {
+  margin: 5px 0;
+}
+ .ServicesGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.ServiceRow {
+  display: flex;
+  width: 100%;
+}
+
+.ServiceBox {
+  width: 50%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+.ServiceBox img {
+  width: 100%;
+  height: auto;
+}
+
+.ServiceBox:hover,
+.ServiceBox img:hover {
+  background-color: rgba(0, 0.1, 0.1, 0.1);
+}

@@ -1,0 +1,99 @@
+header{
+    position: relative;
+    margin-bottom: 40px;
+}
+
+header .logo{
+    font-weight: 600;
+    font-size: 20px;
+}
+header ul.nav{
+    float: right;
+    list-style:none ;
+}
+
+header ul.nav li{
+    display: inline;
+    margin-left: 25px;
+    cursor: pointer;
+    transition: opacity 500ms ease;
+}
+header ul.nav li:hover{
+    opacity: 0.5;
+}
+header .shop-cart-button{
+    float: right;
+    cursor: pointer;
+    transition: color, transform 500ms ease;
+}
+
+header .shop-cart-button:hover,
+header .shop-cart-button:hover.active{
+    color: rgb(0, 176, 23);
+    transform: scale(1.5);
+}
+header .shop-cart{
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    width: 450px;
+    background: #fafafa;
+    box-shadow: 37px -16px 99px -53px rgba(250,249,249,0.77);
+    -webkit-box-shadow: 37px -16px 99px -53px rgba(250,249,249,0.77);
+    -moz-box-shadow: 37px -16px 99px -53px rgba(250,249,249,0.77);
+    z-index: 1000;
+
+    padding: 20px;
+    padding-bottom: 0 ;
+}
+header .shop-cart .empty h2{
+    font-size: 20px;
+margin-bottom: 20px;
+}
+
+header .shop-cart .item{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+
+}
+header .shop-cart .item img{
+    width: 70px;
+    float: left;
+    margin-right: 20px; 
+}
+header .shop-cart .item h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+header .shop-cart .item b{
+    color: #5fa36a;
+    font-weight: 600;
+}
+header .shop-cart .item .delete-icon{
+    color: #ca5252;
+    float: right;
+    position: relative;
+    top: -25px;
+    cursor: pointer;
+    transition: color, transform 500ms ease;
+}
+header .shop-cart .item .delete-icon:hover{
+    color: #d83030 ;
+    transform: scale(1.5);
+}
+header .shop-cart .summa{
+    float: left;
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.nav li {
+  display: inline;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: #333; 
+}

@@ -1,0 +1,161 @@
+.user-profile-content {
+    margin-top: 200px;
+    margin-left: -90px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12%;
+    transform: scale(1.3);
+}
+
+.user-photo-container {
+    overflow: hidden;
+    padding-left: 20%;
+    margin-left: 24%;
+    flex: 0.7;
+    margin: 0 auto;
+}
+
+.user-photo {
+    max-width: 300px;
+    border-radius: 10%;
+    border: 1px solid #ddd;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1.3;
+    transform: scale(0.9);
+}
+
+.user-info h2 {
+    transform: scale(1.2);
+    margin-left: 37%;
+    margin-bottom: 4%;
+}
+
+.user-info-item {
+    padding-left: 30px;
+    flex: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 20%;
+    padding-top: 6px;
+}
+
+.icon-for-acc {
+    text-align: center;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.icon-for-acc img {
+    margin-right: 1rem;
+    max-width: 40px;
+}
+
+.text-info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.text-info h3 {
+    margin: 0;
+    margin-bottom: 7px;
+}
+
+.text-info p {
+    margin: 0;
+}
+
+
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+    height: 50vh;
+    flex-direction: column;
+}
+
+.contact-us {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-us h2 {
+    font-size: 24px;
+}
+
+.contact-us p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contact-form {
+    text-align: center;
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    background-color: #5c5c5c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #3b3b3b;
+}
+.logout-button{
+    padding: 10px;
+  width: 100px;
+  background-color: #9e0000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-left: 470px;
+}
+.logout-button:hover{
+    background-color: #650101;
+    transform: scale(1.05);
+}
+.Contact-text h4{
+    text-align: center;
+}

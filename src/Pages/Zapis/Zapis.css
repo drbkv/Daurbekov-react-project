@@ -1,0 +1,82 @@
+
+  .app-container2 {
+    display: grid;
+    grid-template-columns: 58% 48%;
+    gap: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .questions-container2,
+  .answer-container2 {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .questions-container2 h2,
+  .answer-container2 h2 {
+    color: var(--primary-color);
+    font-size: var(--font-size);
+    text-align: center;
+  }
+  
+  .questions-container2 ul,
+  .answer-container ul {
+    list-style: none;
+    padding: 10px;
+  }
+  
+  
+  .questions-container2 li,
+  .answer-container2 li {
+    border: 1px solid var(--border-color);
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .questions-container2 li:hover,
+  .answer-container2 li:hover {
+    background-color: #575555;
+  }
+  
+  .answer-container2 {
+    grid-area: answer;
+  }
+  
+  .answer-container2 button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .answer-container2 button {
+    background-color: #59d25d;
+  }
+  .answer-container2 button:hover {
+    background-color: #42a646;
+  }
+  
+  .answer-container2 input,
+  .answer-container2 textarea {
+    width: 300px;
+    font-size: var(--font-size);
+  }
+  
+
+  .api-user {
+    border: 1px solid var(--border-color);
+    padding: 10px;
+    margin-bottom: 10px;
+    padding-left: -100px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .api-user:hover {
+    background-color: #575555;
+  }
+  

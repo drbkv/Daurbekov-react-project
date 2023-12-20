@@ -1,0 +1,80 @@
+
+
+  .app-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    min-height: 100vh; 
+  }
+  
+  .questions-container {
+    width: 40%;
+  }
+  
+  .questions-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  .questions-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .questions-container li {
+    cursor: pointer;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  .questions-container li:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .answer-container {
+    width: 50%; 
+    margin-top: 20px;
+    margin-left: 20px; 
+  }
+  
+  .answer-container h2 {
+    margin-bottom: 10px;
+  }
+
+  .add-question-container {
+    border: 1px solid #ccc;
+    padding: 5%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 100%; 
+    margin-top: 30%; 
+    margin-bottom: 30px; 
+
+  }
+
+  .add-question-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  .add-question-container input,
+  .add-question-container textarea,
+  .add-question-container button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .add-question-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .add-question-container button:hover {
+    background-color: #0056b3;
+  } 
+  
